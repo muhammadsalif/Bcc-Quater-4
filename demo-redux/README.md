@@ -1,8 +1,10 @@
 # Getting Started with React-Redux 🚀
+======
 
 ## Guidelines || Basic Instructions.
 
-* Create a store file and use createStore hook in it, this hook takes reducer as parameter. This hook can be imported from *redux* library
+* Create a store file and use `createStore()` hook in it, this hook takes reducer as parameter. This hook can be imported from *redux* library
+***Note: `createStore()` can also takes multiple reducers as an argument with combineReducer function *Eg:* `createStore(combineReducer({"Your all reducers here as an object with key value pairs"}))`
 
 * Create a reducer *(Should be pure function)* that accepts initial state and action in its parameter.
 
