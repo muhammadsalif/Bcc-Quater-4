@@ -1,5 +1,4 @@
 # Getting Started with React-Redux 🚀
-***
 
 ## Guidelines || Basic Instructions.
 
