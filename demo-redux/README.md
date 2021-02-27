@@ -14,3 +14,6 @@
 * `useDispatch({type:"CASE OF YOUR REDUCER", PAYLOAD:"YOUR DATA"})` hook to be used to dispatch a message to reducer to update that particular state. Additionaly you can also dispatch `payload:"Your data"` to reducer to set that data to particular case in the store.
 
 * Actions.js file should be create to reduce to chances of errors in dispatch functions, That have all your cases that will be passed to reducer as a functions.
+
+[Link to official redux getting started](https://redux.js.org/introduction/getting-started)
+
