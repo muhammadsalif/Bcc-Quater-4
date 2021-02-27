@@ -10,6 +10,6 @@
 
 * useSelector hook used to get data from your store that accept a function in it through which you can get state values.
 
-* useDispatch hook to be used to dispatch a message to reducer to update that particular state. Additionaly you can also send "payload" to reducer to set that data to particular case.
+* useDispatch hook to be used to dispatch a message to reducer to update that particular state. Additionaly you can also send **payload** to reducer to set that data to particular case.
 
 * Actions.js file should be create to reduce to chances of errors in dispatch functions.
