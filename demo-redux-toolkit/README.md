@@ -14,4 +14,4 @@
 
 * `useDispatch("your action with having data in its parameter")` hook to be used to dispatch a message to reducer to update that particular state.
 
-[Link to official redux getting started](https://redux-toolkit.js.org/introduction/getting-started)
+[Link to official redux Toolkit getting started](https://redux-toolkit.js.org/introduction/getting-started)
