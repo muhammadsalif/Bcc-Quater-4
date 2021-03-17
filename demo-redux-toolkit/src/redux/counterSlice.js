@@ -20,9 +20,9 @@ export const counterSlice = createSlice({
 
         decrement: state => { state.counter -= 1 },
 
-        incrementByValue: (state, payload) => { state.counter += payload.payload },
+        incrementByValue: (state, action) => { state.counter += action.payload },
 
-        updateName: (state, payload) => { state.user.name = payload.payload }
+        updateName: (state, action) => { state.user.name = action.payload }
     }
 })
 

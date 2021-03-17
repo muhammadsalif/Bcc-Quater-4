@@ -27,7 +27,7 @@ function App() {
 
 
       <label>Increment by value</label>
-      <input type="text" value={value} onChange={(e) => setValue(Number(e.target.value))} />
+      <input type="number" value={value} onChange={(e) => setValue(Number(e.target.value))} />
       <button onClick={(e) => dispatch(incrementByValue(value))} >Increment by value</button>
 
       <br></br>
